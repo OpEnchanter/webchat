@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>WebChat</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div id="chat">
+    <div class="options" id="menu">
+      <button onclick="joinRoomGUI()" class="optionButton">Join Room</button>
+      <button onclick="createRoom()" class="optionButton">Create Room</button>
+      <button onclick="loadPublicRoomUI()" class="optionButton">Create Public Room</button>
+      <button class="rightHandleButton" onclick="expandMenu()">More</button>
+    </div>
+
+    <div class="submenu" id="submenu">
+      <button class="optionButton" style="float: left;" onclick="window.location.href='https://webutils.openchanter.repl.co'">WebUtils</button>
+      <button class="optionButton" style="float: left;" onclick="window.location.href='https://qotd.openchanter.repl.co'">Everything For Everyday</button>
+    </div>
+    
+    <div></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
