@@ -1,4 +1,4 @@
-const wsIP = `ws://209.134.45.110:8765`;
+const wsIP = `ws://iphere:8765`;
 const socket = new WebSocket(wsIP);
 
 let bgCycle = true;
